@@ -1,0 +1,22 @@
+
+.online-reader *{
+    background-color: #ecdaad !important; 
+    color: #111 !important; 
+    font-family: "Baskervville", serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 22px;
+  }
+  
+ 
+  .online-reader nav,
+  .online-reader header,
+  .online-readerfooter,
+  .online-reader aside {
+  display: none !important; 
+}
+
+  .online-reader a {
+    color: #0055aa !important; 
+    text-decoration: underline;
+  }

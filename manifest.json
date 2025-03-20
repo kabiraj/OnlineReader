@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Kindle Reader Mode",
+  "version": "1.0",
+  "description": "Transforms websites to a Kindle-like reading experience.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "book.png",
+      "48": "book.png",
+      "128": "book.png"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none';"
+  }
+}
